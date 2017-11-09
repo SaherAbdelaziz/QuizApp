@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Quiz_App</string>
+
+    <string name="Q1">Question 1</string>
+    <string name="Q2">Question 2</string>
+    <string name="Q3">Question 3</string>
+    <string name="Q4">Question 4</string>
+    <string name="Q5">Question 5</string>
+
+    <string name="Q1_text">Which of the following statement terminates the loop statement</string>
+    <string name="Q2_text">What is the output of print list[2:] if list = [ \'abcd\', 786 , 2.23, \'john\', 70.2 ]?</string>
+    <string name="Q3_text">Which of the following is correct about Python?</string>
+    <string name="Q4_text">What is the output of [\'hi!\'] * 2?</string>
+    <string name="Q5_text">What is the output of L[-1] if L = [1,2,3]?</string>
+
+    <string name="Q1Choice1">break</string>
+    <string name="Q1Choice2">continue</string>
+    <string name="Q1Choice3">pass</string>
+    <string name="Q1Choice4">None of the above</string>
+
+    <string name="Q2Choice1">[ \'abcd\', 786 , 2.23, \'john\', 70.2 ]</string>
+    <string name="Q2Choice2">abcd</string>
+    <string name="Q2Choice3">[786, 2.23]</string>
+    <string name="Q2Choice4">[2.23, \'john\', 70.2]</string>
+
+    <string name="Q3Choice1">It supports functional and structured programming methods as well as OOP.</string>
+    <string name="Q3Choice2">It can be used as a scripting language or can be compiled to byte-code for building large applications.</string>
+    <string name="Q3Choice3">It provides very high-level dynamic data types and supports dynamic type checking.</string>
+
+    <string name="Q4_hint">enter your answer</string>
+
+    <string name="Q5Choice1">1</string>
+    <string name="Q5Choice2">2</string>
+    <string name="Q5Choice3">3</string>
+    <string name="Q5Choice4">error</string>
+
+
+    <string name="RestButton">Rest</string>
+    <string name="SubmitButton">Submit</string>
+
+
+</resources>
