@@ -38,5 +38,8 @@
     <string name="RestButton">Rest</string>
     <string name="SubmitButton">Submit</string>
 
+    <string name="ScoreMessage"> Your score is %1$d over 100</string>
+    <string name="CongratsMessage"> Congratulation! you have solved all questions right </string>
+
 
 </resources>

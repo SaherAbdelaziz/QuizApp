@@ -51,18 +51,28 @@ public class MainActivity extends AppCompatActivity {
                     q3=20 ;
                 }
                 String answer =String.valueOf(mQ4Answer.getText()) ;
-                answer = answer.replaceAll("\\s+","") ;
+                answer=answer.toLowerCase() ;
+                answer=answer.trim() ;
+                answer=answer.replaceAll("\\s+","") ;
+
                 if(answer.equals("['hi!','hi!']")){
                     q4=20 ;
                 }
 
 
                 score=q1 + q2 + q3 + q4 + q5 ;
+                String x=String.format(getString(R.string.ScoreMessage) , score) ;
 
-                Toast.makeText(MainActivity.this, "Your score is " + String.valueOf(score) + " over 100", Toast.LENGTH_SHORT).show();
+                if(score==100){
 
-                if(score==100)
-                    Toast.makeText(MainActivity.this, "Congratulation! you have solved all questions right ", Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, x , Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, getString(R.string.CongratsMessage), Toast.LENGTH_LONG).show();
+
+                }
+
+                else {
+                    Toast.makeText(MainActivity.this, x , Toast.LENGTH_SHORT).show();
+                }
                 Rest() ;
             }
         });

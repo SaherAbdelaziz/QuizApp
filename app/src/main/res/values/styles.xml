@@ -2,11 +2,11 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light">
         <!-- Primary theme color of the app (sets background color of app bar) -->
-        <item name="colorPrimary">#FF98F0</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
         <!-- Primary dark theme color of the app (sets color of status bar) -->
-        <item name="colorPrimaryDark">#FB8CF0</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <!-- Background color of buttons in the app -->
-        <item name="colorButtonNormal">#FF98F0</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
     </style>
 
     <style name="texThemQ">
@@ -19,7 +19,7 @@
 
         <item name="android:textStyle"> bold</item>
 
-        <item name="android:textColor"> @android:color/black </item>
+        <item name="android:textColor"> @color/QColor </item>
 
     </style>
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_button_min_width">56dp</dimen>
+    <dimen name="indeterminate_progress_size">32dp</dimen>
+    <dimen name="marginLeft"> 10dp </dimen>
+    <dimen name="marginRight"> 10dp </dimen>
+
+
+</resources>
